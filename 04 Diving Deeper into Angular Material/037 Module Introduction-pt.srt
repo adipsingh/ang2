@@ -1,0 +1,36 @@
+1
+00:00:02,280 --> 00:00:05,990
+Agora  hora de um mergulho mais profundo no material angular.
+
+2
+00:00:06,150 --> 00:00:12,390
+No ltimo ms de maro, voc aprender o bsico sobre como funciona e como usamos esses componentes
+
+3
+00:00:12,390 --> 00:00:13,320
+de material angular.
+
+4
+00:00:13,350 --> 00:00:20,820
+Todos ns damos uma breve olhada no layout de flexo angular de um pacote que nos permite posicionar nossos elementos e
+
+5
+00:00:20,850 --> 00:00:23,860
+usar blocos flexveis em um ndice fcil de usar.
+
+6
+00:00:24,060 --> 00:00:27,020
+Mas ns no olhamos mais de perto para ser honesto.
+
+7
+00:00:27,090 --> 00:00:29,820
+E h muitos outros componentes que podemos explorar.
+
+8
+00:00:29,820 --> 00:00:36,210
+Ento, vamos fazer todas essas coisas neste mdulo e que Steiff mais profundamente em material angular e tambm flexo angular
+
+9
+00:00:36,210 --> 00:00:37,500
+lay out, eu acho.
+

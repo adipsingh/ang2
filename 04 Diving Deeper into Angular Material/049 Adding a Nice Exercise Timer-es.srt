@@ -1,0 +1,172 @@
+1
+00:00:02,190 --> 00:00:05,980
+Tenemos el Spener bsico, pero todava falta mucha funcionalidad.
+
+2
+00:00:06,210 --> 00:00:09,840
+Antes que nada, asegurmonos de que no supere los 100.
+
+3
+00:00:10,290 --> 00:00:15,990
+Si lo hace, entonces queremos cancelarlo para poder cancelar todo. Bueno, necesitamos almacenarlo primero.
+
+4
+00:00:15,990 --> 00:00:22,110
+Entonces, en un momento o propiedad que es un nmero y luego puedo establecer en este momento son iguales
+
+5
+00:00:22,670 --> 00:00:28,830
+a set intraweb does muestra un error aqu pero en realidad funcionar dicha entrada nos devuelve un nmero de
+
+6
+00:00:28,830 --> 00:00:33,770
+ID que podemos usar junto con borrar en el mtodo mundial que es proporcionado por Javascript.
+
+7
+00:00:33,780 --> 00:00:37,020
+Entonces, dentro del mtodo lo ejecutamos cada segundo.
+
+8
+00:00:37,200 --> 00:00:43,650
+Quiero verificar si este progreso es mayor o igual a 100, que es nuestra condicin de salida.
+
+9
+00:00:43,650 --> 00:00:46,110
+Ciertamente, queremos detenernos cuando se llegue a esto.
+
+10
+00:00:46,410 --> 00:00:51,840
+En este caso, queremos llamar a clear en Will y nuevamente este no es un mtodo proporcionado por Engler o
+
+11
+00:00:51,840 --> 00:00:52,790
+por material angular.
+
+12
+00:00:52,800 --> 00:00:58,440
+Es un mtodo javascript predeterminado y pasamos este temporizador como un argumento.
+
+13
+00:00:58,440 --> 00:01:01,180
+Ahora esto lo detendr cada vez que lleguemos a 100.
+
+14
+00:01:01,410 --> 00:01:07,350
+Y para asegurarnos de que veamos esto un poco ms rpido, aumentar en 24 ahora, por lo que solo
+
+15
+00:01:07,560 --> 00:01:08,590
+tardaremos 5 segundos.
+
+16
+00:01:08,760 --> 00:01:15,630
+Entonces ahora ves que crece y crece y crece y el nmero se detiene.
+
+17
+00:01:15,630 --> 00:01:17,330
+Entonces esto ahora est funcionando.
+
+18
+00:01:17,460 --> 00:01:20,210
+Eso es reducir esto a 5 de nuevo.
+
+19
+00:01:20,430 --> 00:01:29,680
+Pero asegurmonos ahora de que podemos hacer clic en ese botn de detencin y pausar y, finalmente, cancelar esta capacitacin.
+
+20
+00:01:29,940 --> 00:01:31,830
+Ahora para Detener todo.
+
+21
+00:01:31,830 --> 00:01:37,670
+Antes que nada, haga clic en "escuchar" y ejecute "detener" el nombre del mtodo que desee, por supuesto.
+
+22
+00:01:38,160 --> 00:01:43,980
+Agreguemos el mtodo on stop y luego ejecutemos clear interval.
+
+23
+00:01:44,010 --> 00:01:47,730
+Este temporizador Esto debera detener el temporizador inmediatamente.
+
+24
+00:01:47,760 --> 00:01:55,980
+Entonces, si comenzamos a entrenar aqu y tuve una parada, no contina.
+
+25
+00:01:55,990 --> 00:02:02,440
+Ahora lo que quiero hacer es mostrarle un dilogo al usuario donde le pregunto si realmente
+
+26
+00:02:02,440 --> 00:02:03,400
+quiere dejarlo.
+
+27
+00:02:03,490 --> 00:02:08,110
+Y si el usuario cancela, entonces deberamos recibir el temporizador.
+
+28
+00:02:08,110 --> 00:02:14,410
+Si el usuario confirma, debemos continuar y volver a la pgina anterior.
+
+29
+00:02:14,410 --> 00:02:20,470
+As que para eso echemos un vistazo a la documentacin oficial y echemos un vistazo a las ventanas emergentes y
+
+30
+00:02:21,400 --> 00:02:22,640
+modales y su dilogo.
+
+31
+00:02:22,650 --> 00:02:24,380
+Suena bien.
+
+32
+00:02:24,400 --> 00:02:31,590
+El dilogo nos permite ingresar algo aqu, por ejemplo, y hacer clic en ese y ese es el dilogo real.
+
+33
+00:02:31,720 --> 00:02:37,300
+Y puede poblar esto con lo que quiera y no necesita ingresar un nombre ni nada de
+
+34
+00:02:37,300 --> 00:02:37,480
+eso.
+
+35
+00:02:37,480 --> 00:02:41,670
+Primero, por supuesto, eres muy flexible sobre cmo debera ser este dilogo.
+
+36
+00:02:41,770 --> 00:02:48,610
+La parte interesante aqu en el cdigo de ejemplo es que no vemos nada que
+
+37
+00:02:48,610 --> 00:02:59,470
+haya estado en ese dilogo porque el dilogo se crea todo en cdigo. Daises El dilogo de palabra se crea con el dilogo
+
+38
+00:02:59,710 --> 00:03:03,120
+abierto despus de inyectar el dilogo mat.
+
+39
+00:03:03,160 --> 00:03:04,650
+Esto es sper importante
+
+40
+00:03:04,650 --> 00:03:07,970
+El dilogo es un componente material especial.
+
+41
+00:03:08,350 --> 00:03:14,860
+No se agrega a la plantilla como lo hicimos con todos los componentes abro que utilizamos hasta ahora.
+
+42
+00:03:14,860 --> 00:03:17,790
+En cambio, se invoca mediante programacin.
+
+43
+00:03:18,010 --> 00:03:19,520
+Miremos ms de cerca.
+

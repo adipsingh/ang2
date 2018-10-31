@@ -1,0 +1,64 @@
+1
+00:00:02,440 --> 00:00:09,880
+Si buscamos en nuestra aplicacin, tenemos una pantalla de registro, una pantalla de inicio de sesin y una pantalla de entrenamiento, y
+
+2
+00:00:09,880 --> 00:00:10,420
+todo eso.
+
+3
+00:00:10,420 --> 00:00:12,730
+Por supuesto tambin en nuestra respuesta.
+
+4
+00:00:12,810 --> 00:00:14,130
+Vamos a disear aqu.
+
+5
+00:00:14,770 --> 00:00:25,430
+Ahora podemos comenzar una capacitacin para hacer nuestro dilogo aqu donde queremos dejar de fumar o no, y nunca abandonar o continuar.
+
+6
+00:00:25,750 --> 00:00:27,180
+Entonces esto est funcionando.
+
+7
+00:00:27,220 --> 00:00:29,500
+Ahora falta una cosa.
+
+8
+00:00:29,500 --> 00:00:34,210
+Obviamente, si nos marchamos aqu no vemos ejercicios anteriores.
+
+9
+00:00:34,330 --> 00:00:36,390
+No tenemos contenido aqu.
+
+10
+00:00:36,430 --> 00:00:45,070
+Ahora, antes de agregar das, utilizaremos un componente realmente complejo y
+
+11
+00:00:45,070 --> 00:00:47,240
+complejo para nosotros.
+
+12
+00:00:47,560 --> 00:00:52,610
+Me pregunto por qu estn todas estas cosas con datos reales y usan menos datos ficticios.
+
+13
+00:00:52,720 --> 00:00:59,620
+Es hora de agregar algunos servicios y asegurarnos de que todo interacta sin problemas una vez que
+
+14
+00:00:59,650 --> 00:01:06,700
+se hace esto, implementaremos el componente de tabla de tareas y, posteriormente, veremos cmo podemos conectar todo
+
+15
+00:01:06,700 --> 00:01:07,720
+a Internet.
+
+16
+00:01:07,720 --> 00:01:10,390
+Entonces, el prximo mdulo es el momento de conectar todo.
+

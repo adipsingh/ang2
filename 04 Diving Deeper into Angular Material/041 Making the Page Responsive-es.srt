@@ -1,0 +1,268 @@
+1
+00:00:02,440 --> 00:00:04,840
+Aadimos que la barra de herramientas y el lado.
+
+2
+00:00:04,990 --> 00:00:07,830
+Ahora es el momento de hacer que nuestro sitio web responda.
+
+3
+00:00:08,020 --> 00:00:11,770
+Y para eso podemos echar un vistazo al paquete de diseo flexible de nuevo.
+
+4
+00:00:11,770 --> 00:00:18,210
+Hasta ahora, hemos echado un vistazo a la API esttica con un diseo tico, establecemos un espacio de
+
+5
+00:00:18,220 --> 00:00:25,060
+lnea y tambin usamos epix flex, no usamos offset de orden ni alineacin o relleno, porque si realmente los
+
+6
+00:00:25,060 --> 00:00:26,590
+necesitas necesitas cambiar el orden.
+
+7
+00:00:26,890 --> 00:00:31,590
+Pero lo que quiero hacer ahora es ver la API receptiva.
+
+8
+00:00:31,870 --> 00:00:38,290
+Esto nos permite anotar todas estas directivas con las que hemos estado trabajando con
+
+9
+00:00:38,320 --> 00:00:47,710
+directivas receptivas como X solicitada en dispositivos pequeos o menores que pequeas, para aplicar solo algo en dispositivos muy pequeos,
+
+10
+00:00:47,750 --> 00:00:55,450
+as que anote todas las directivas API estticas con estas directivas receptivas para aplicarlas solo en
+
+11
+00:00:55,450 --> 00:00:56,460
+ciertas pantallas.
+
+12
+00:00:56,470 --> 00:01:03,820
+Permtanme mostrarles lo que quiero decir con nuestro ejemplo que aqu obtenemos si volvemos a la API stedding por un segundo obtenemos estas
+
+13
+00:01:04,270 --> 00:01:09,970
+directivas de ayuda en la parte inferior de la altura tica y muestran cul determina si algo es
+
+14
+00:01:09,970 --> 00:01:11,480
+o no puede ganar.
+
+15
+00:01:11,490 --> 00:01:19,960
+Ahora podemos simplemente ocultar todo este bloque aqu en la barra de herramientas en dispositivos pequeos o muy pequeos y
+
+16
+00:01:20,020 --> 00:01:23,800
+esconder el botn de men en dispositivos ms grandes.
+
+17
+00:01:23,800 --> 00:01:29,620
+De esta forma, el navegador del sitio solo podra abrirse en los ms pequeos y la navegacin en la barra de herramientas solo
+
+18
+00:01:29,620 --> 00:01:31,000
+se mostrara en los ms grandes.
+
+19
+00:01:31,210 --> 00:01:37,480
+Por supuesto, podemos hacer esto agregando show de tica y ocultar para que podamos ir al da si eso envuelve nuestros
+
+20
+00:01:37,510 --> 00:01:39,880
+elementos de navegacin y agrega altura de tica.
+
+21
+00:01:39,910 --> 00:01:45,090
+Ahora si guardo esto y vuelvo a mi pgina, desaparece.
+
+22
+00:01:45,100 --> 00:01:46,600
+La navegacin se ha ido.
+
+23
+00:01:46,930 --> 00:01:48,380
+Ahora ese es un primer paso.
+
+24
+00:01:49,200 --> 00:01:53,160
+Quiero ocultarlo solo en dispositivos pequeos, por supuesto.
+
+25
+00:01:53,160 --> 00:01:55,290
+Ahora podemos agregar esta API receptiva.
+
+26
+00:01:55,320 --> 00:02:02,670
+Podemos agregar un punto y ahora anotar esto con cualquiera de las directivas de respuesta, por ejemplo, x
+
+27
+00:02:02,670 --> 00:02:10,580
+x, lo que significa que solo se aplicar una tica alta en pantallas muy pequeas y puede volver a
+
+28
+00:02:10,740 --> 00:02:14,230
+la documentacin para ver esa definicin en API receptiva.
+
+29
+00:02:14,490 --> 00:02:22,410
+Ver que el acceso simplemente se aplica a la consulta de medios donde dice que solo cuatro pantallas llegan a
+
+30
+00:02:22,460 --> 00:02:23,370
+600 pxeles.
+
+31
+00:02:23,640 --> 00:02:26,160
+Se aplicar la regla donde se agreg esto.
+
+32
+00:02:26,160 --> 00:02:30,580
+Entonces, en nuestro caso, solo cuatro pantallas de hasta quinientos noventa y nueve pxeles.
+
+33
+00:02:30,690 --> 00:02:33,840
+Estarn ocultos o esta capa estar oculta.
+
+34
+00:02:33,840 --> 00:02:36,070
+Esta lista de navegacin.
+
+35
+00:02:36,330 --> 00:02:42,520
+Si volvemos a nuestra aplicacin, podemos ver el men aqu.
+
+36
+00:02:42,720 --> 00:02:45,790
+Pero si cambio al modo mvil ya no est.
+
+37
+00:02:46,050 --> 00:02:49,140
+Y, por supuesto, lo mismo para diferentes telfonos mviles.
+
+38
+00:02:49,140 --> 00:02:51,360
+Ahora esto muestra a qu me refiero.
+
+39
+00:02:51,660 --> 00:02:52,650
+Pero nosotros a.
+
+40
+00:02:53,010 --> 00:02:55,790
+No obtenemos ningn men aqu, pero lo tenemos aqu.
+
+41
+00:02:56,070 --> 00:03:00,460
+Ahora hagamos lo contrario por el botn para el botn de men.
+
+42
+00:03:00,830 --> 00:03:09,520
+Voy a tomar esto y ahora en este da que envuelve el botn, podemos agregarlo pero, por supuesto,
+
+43
+00:03:09,520 --> 00:03:13,700
+quieres ocultarlo en todo menos en pantallas muy pequeas.
+
+44
+00:03:13,870 --> 00:03:22,150
+Entonces podramos decir F X s m f x ocultar M D y todas estas clases que ves aqu.
+
+45
+00:03:22,450 --> 00:03:32,640
+As que tenemos que hacer eso para grandes y extra grandes a la tica ocultar una gran tica hide x l haciendo esto.
+
+46
+00:03:32,680 --> 00:03:36,580
+Si retrocedemos, no vemos ningn botn de men aqu.
+
+47
+00:03:36,750 --> 00:03:42,980
+Y si reduzco la pantalla, es Stehr si vamos a dispositivos ms pequeos.
+
+48
+00:03:43,320 --> 00:03:49,590
+En realidad, parece que a las 10:30 ya se me ocurri si deba volver a salir.
+
+49
+00:03:50,390 --> 00:03:58,060
+A mi resolucin normal, entonces esto no aparecera y solo se rompera en 600 pxeles.
+
+50
+00:03:58,200 --> 00:04:01,870
+Entonces, todos los 600 pxeles y ms pequeos obtenemos este botn.
+
+51
+00:04:02,010 --> 00:04:03,510
+Djame Sumant otra vez sin embargo.
+
+52
+00:04:03,510 --> 00:04:08,910
+As que esta es nuestra configuracin receptiva aqu donde solo obtenemos esta barra de men en pantallas pequeas.
+
+53
+00:04:09,890 --> 00:04:12,680
+Asignar a clases como esta es un poco engorroso.
+
+54
+00:04:12,720 --> 00:04:16,590
+Saber lo que podramos hacer es agregar F X show X s.
+
+55
+00:04:16,790 --> 00:04:21,690
+Si hacemos esto, siempre es visible.
+
+56
+00:04:21,710 --> 00:04:23,430
+Entonces esto no nos ayuda aqu.
+
+57
+00:04:23,810 --> 00:04:26,460
+En cambio, podemos usar un nmero de una clase auxiliar.
+
+58
+00:04:26,600 --> 00:04:32,630
+Todos nos volvemos ms bajos y ms grandes que las clases y queremos decir que esto debera estar oculto.
+
+59
+00:04:32,630 --> 00:04:40,370
+As que la altura tica para todo lo que es mayor que las cosas extra pequeas se refiere aqu a esta clase
+
+60
+00:04:40,370 --> 00:04:41,030
+de ayuda.
+
+61
+00:04:41,030 --> 00:04:45,330
+Y con esta configuracin, ahora obtenemos el mismo efecto que antes, pero con menos cdigo.
+
+62
+00:04:45,530 --> 00:04:48,920
+Y ahora tenemos una navegacin receptiva aqu.
+
+63
+00:04:49,490 --> 00:04:52,240
+Todava, por supuesto, el lado que tienen una vaca por separado.
+
+64
+00:04:52,250 --> 00:04:54,740
+Entonces eso es algo en lo que quiero trabajar.
+
+65
+00:04:54,800 --> 00:05:01,460
+Y luego todos deberamos ver cmo podemos dividir este componente de la aplicacin en subcomponentes
+
+66
+00:05:01,460 --> 00:05:03,450
+ms pequeos y ms enfocados.
+
+67
+00:05:03,590 --> 00:05:06,000
+Vamos a trabajar en todo esto en el prximo ELECTRS.
+

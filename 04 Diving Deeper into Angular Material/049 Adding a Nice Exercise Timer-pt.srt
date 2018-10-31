@@ -1,0 +1,172 @@
+1
+00:00:02,190 --> 00:00:05,980
+Temos o Spener bsico, mas ainda falta muita funcionalidade.
+
+2
+00:00:06,210 --> 00:00:09,840
+Antes de mais nada, vamos garantir que no ultrapasse 100.
+
+3
+00:00:10,290 --> 00:00:15,990
+Em caso afirmativo, queremos cancel-lo para poder cancelar todo o Bem, precisamos armazen-lo primeiro.
+
+4
+00:00:15,990 --> 00:00:22,110
+Ento, em um momento ou propriedade que  um nmero e ento eu posso definir neste momento so iguais
+
+5
+00:00:22,670 --> 00:00:28,830
+para definir intraweb mostra um erro aqui, mas na verdade vai funcionar disse entranhas retorna-nos um nmero um ID
+
+6
+00:00:28,830 --> 00:00:33,770
+que podemos usar em conjunto para limpar no mtodo mundial que  fornecido pelo Javascript.
+
+7
+00:00:33,780 --> 00:00:37,020
+Ento, dentro do mtodo, executamos a cada segundo.
+
+8
+00:00:37,200 --> 00:00:43,650
+Quero verificar se esse progresso  maior ou igual a 100, que  nossa condio de sada.
+
+9
+00:00:43,650 --> 00:00:46,110
+Ns certamente queremos parar quando isso for alcanado.
+
+10
+00:00:46,410 --> 00:00:51,840
+Neste caso, queremos chamar claro para Will e, novamente, este no  um mtodo fornecido pela Engler ou
+
+11
+00:00:51,840 --> 00:00:52,790
+por material angular.
+
+12
+00:00:52,800 --> 00:00:58,440
+ um mtodo javascript padro e passamos este temporizador como um argumento.
+
+13
+00:00:58,440 --> 00:01:01,180
+Agora isso vai par-lo sempre que chegarmos a 100.
+
+14
+00:01:01,410 --> 00:01:07,350
+E para garantir que isso seja um pouco mais rpido, vou incrementar em 24 agora, para levar
+
+15
+00:01:07,560 --> 00:01:08,590
+apenas 5 segundos.
+
+16
+00:01:08,760 --> 00:01:15,630
+Ento agora voc v que cresce, cresce e cresce e o nmero para.
+
+17
+00:01:15,630 --> 00:01:17,330
+Ento isso est funcionando agora.
+
+18
+00:01:17,460 --> 00:01:20,210
+Isso  diminuir isso para 5 novamente.
+
+19
+00:01:20,430 --> 00:01:29,680
+Mas vamos agora tambm garantir que podemos clicar no boto parar e pausar e, finalmente, cancelar este treinamento.
+
+20
+00:01:29,940 --> 00:01:31,830
+Agora para parar tudo.
+
+21
+00:01:31,830 --> 00:01:37,670
+Primeiro de tudo, em um ouvinte de clique e execute no seu nome ou qualquer nome de mtodo que voc deseja,  claro.
+
+22
+00:01:38,160 --> 00:01:43,980
+Vamos adicionar o mtodo on stop e depois vamos executar o intervalo claro.
+
+23
+00:01:44,010 --> 00:01:47,730
+Este temporizador Isto deve parar imediatamente o temporizador.
+
+24
+00:01:47,760 --> 00:01:55,980
+Ento, se comearmos a treinar aqui e eu parar, no continue.
+
+25
+00:01:55,990 --> 00:02:02,440
+Agora, o que eu quero fazer  mostrar uma caixa de dilogo para o usurio onde eu pergunto se ele
+
+26
+00:02:02,440 --> 00:02:03,400
+realmente quer sair.
+
+27
+00:02:03,490 --> 00:02:08,110
+E se o usurio cancelar, ento devemos receber o cronmetro.
+
+28
+00:02:08,110 --> 00:02:14,410
+Se o usurio confirmar, devemos continuar e voltar para a pgina anterior.
+
+29
+00:02:14,410 --> 00:02:20,470
+Ento, para isso, vamos dar uma olhada na documentao oficial e vamos dar uma olhada nos pop-ups e modais
+
+30
+00:02:21,400 --> 00:02:22,640
+e no dilogo deles.
+
+31
+00:02:22,650 --> 00:02:24,380
+Parece correto.
+
+32
+00:02:24,400 --> 00:02:31,590
+A caixa de dilogo nos permite inserir algo aqui, por exemplo, e clicar nesse e que  o dilogo real.
+
+33
+00:02:31,720 --> 00:02:37,300
+E voc pode preencher isso com o que quiser e no precisa digitar um nome ou algo
+
+34
+00:02:37,300 --> 00:02:37,480
+assim.
+
+35
+00:02:37,480 --> 00:02:41,670
+Primeiro, claro, voc  realmente flexvel sobre como esse dilogo deve ser.
+
+36
+00:02:41,770 --> 00:02:48,610
+A parte interessante aqui no cdigo de exemplo  que no vemos nada que
+
+37
+00:02:48,610 --> 00:02:59,470
+teria sido nesse dilogo porque o dilogo  criado em todos os dilogos de cdigo. Dilogo de palavra  criado com o dilogo
+
+38
+00:02:59,710 --> 00:03:03,120
+aberto aps o dilogo de injetar colches.
+
+39
+00:03:03,160 --> 00:03:04,650
+Isso  super importante.
+
+40
+00:03:04,650 --> 00:03:07,970
+O dilogo  um componente material especial.
+
+41
+00:03:08,350 --> 00:03:14,860
+No  adicionado ao template como fizemos com todos os componentes que usamos at agora.
+
+42
+00:03:14,860 --> 00:03:17,790
+Em vez disso,  chamado programaticamente.
+
+43
+00:03:18,010 --> 00:03:19,520
+Vamos olhar mais de perto.
+

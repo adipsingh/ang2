@@ -1,0 +1,36 @@
+1
+00:00:02,280 --> 00:00:05,990
+Ahora es el momento de profundizar en el material angular.
+
+2
+00:00:06,150 --> 00:00:12,390
+En el pasado mes de marzo aprender los conceptos bsicos sobre cmo funciona y cmo usamos estos componentes
+
+3
+00:00:12,390 --> 00:00:13,320
+de materiales angulares.
+
+4
+00:00:13,350 --> 00:00:20,820
+Todos echamos un vistazo a angular flex lay out a package, que nos permite posicionar nuestros elementos y usar
+
+5
+00:00:20,850 --> 00:00:23,860
+bloques flexibles en un ndice fcil de usar.
+
+6
+00:00:24,060 --> 00:00:27,020
+Pero no lo miramos ms de cerca para ser honestos.
+
+7
+00:00:27,090 --> 00:00:29,820
+Y hay muchos ms componentes que podemos explorar.
+
+8
+00:00:29,820 --> 00:00:36,210
+As que hagamos todas estas cosas en este mdulo y creemos que Steiff profundizar en el material angular y tambin
+
+9
+00:00:36,210 --> 00:00:37,500
+en la flexin angular.
+

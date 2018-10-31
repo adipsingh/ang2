@@ -1,0 +1,332 @@
+1
+00:00:02,170 --> 00:00:04,270
+Ns tivemos as torneiras e a ltima Palestra.
+
+2
+00:00:04,270 --> 00:00:07,800
+Agora quero trabalhar no novo treinamento agora para o novo treinamento.
+
+3
+00:00:07,990 --> 00:00:11,030
+Eu realmente quero usar um carrinho.
+
+4
+00:00:11,080 --> 00:00:14,200
+Olhe agora o que quero dizer com olhar CARRO.
+
+5
+00:00:14,570 --> 00:00:17,590
+Vamos dar uma olhada na documentao oficial que eles esto sob o layout.
+
+6
+00:00:17,590 --> 00:00:25,270
+Voc encontra um componente de carrinho e voc pode perceber o olhar de muitos e muitos carrinhos de pginas da web como
+
+7
+00:00:25,270 --> 00:00:29,790
+este ou se voc olhar exemplos como este  um carto mais complexo.
+
+8
+00:00:29,800 --> 00:00:36,160
+Claro que voc pode ver o cdigo fonte deste cdigo para a idia por trs de um carto, um simples voc tem um
+
+9
+00:00:36,190 --> 00:00:38,560
+wrapper para o carto inteiro como o carto Matt.
+
+10
+00:00:38,560 --> 00:00:43,510
+Neste caso, e ento no material angular, voc d alguns subcomponentes que voc
+
+11
+00:00:43,540 --> 00:00:51,520
+pode aninhar no carto, se voc quiser tir-lo da caixa de estilo legenda do ttulo, a imagem geral do contedo que
+
+12
+00:00:51,820 --> 00:00:58,150
+pode ser colocada no topo e se estende para cheio com alguma ao assim alguns botes
+
+13
+00:00:58,150 --> 00:01:05,770
+na parte inferior que voc tambm pode ver aqui e tambm uma pasta que voc pode opcionalmente se  opcional.
+
+14
+00:01:05,770 --> 00:01:12,220
+Ele permite que voc atribua contedo a lugares diferentes do seu carto, mas voc tambm pode comear com
+
+15
+00:01:12,520 --> 00:01:14,650
+um carto to simples quanto isso.
+
+16
+00:01:14,650 --> 00:01:17,210
+Agora aqui no vou pegar um carto super simples.
+
+17
+00:01:17,410 --> 00:01:22,960
+Vamos construir um carto com o ttulo de um contedo e algumas aes e, em seguida, queremos ter
+
+18
+00:01:22,960 --> 00:01:26,250
+um carto que diz essencialmente novo treinamento ou algo parecido.
+
+19
+00:01:26,500 --> 00:01:34,240
+E onde eu no tenho um formulrio dentro dele que me permita selecionar o treinamento do que fazer o exerccio
+
+20
+00:01:34,240 --> 00:01:35,310
+que quero fazer.
+
+21
+00:01:35,470 --> 00:01:42,010
+E, em seguida, uma ao para um boto e que me permite comear a negociao agora para que vamos voltar para
+
+22
+00:01:42,010 --> 00:01:42,760
+o cdigo.
+
+23
+00:01:43,090 --> 00:01:48,720
+E vamos ao carrinho mximo como um componente como esse.
+
+24
+00:01:48,760 --> 00:01:54,390
+Agora o carto Matt no funciona porque no o importamos corretamente.
+
+25
+00:01:54,460 --> 00:01:57,160
+Ento vamos ao mdulo de material novamente.
+
+26
+00:01:57,280 --> 00:01:58,680
+E eles esto no topo.
+
+27
+00:01:58,690 --> 00:02:03,880
+Vamos importar o mdulo de Matt Hart.
+
+28
+00:02:04,150 --> 00:02:06,690
+Este e voc conhece o jogo.
+
+29
+00:02:06,700 --> 00:02:13,720
+Tambm adicionamos duas importaes e adicionamos duas exportaes com o Datsuns.
+
+30
+00:02:13,720 --> 00:02:14,710
+Ns importamos dados.
+
+31
+00:02:14,740 --> 00:02:20,650
+O mdulo podemos usar o carto no novo componente de negociao assim.
+
+32
+00:02:20,660 --> 00:02:28,250
+Agora o carto Matt  um comeo, mas como eu disse eu quero ter um ttulo algum contedo e tambm alguns botes.
+
+33
+00:02:28,690 --> 00:02:37,060
+O que eu tambm quero  que eu queira restringir a largura deste carto para que ele no cubra toda a
+
+34
+00:02:37,060 --> 00:02:40,730
+largura em telas grandes, mas apenas em telas pequenas.
+
+35
+00:02:40,940 --> 00:02:42,790
+Vamos comear simples, vamos adicionar.
+
+36
+00:02:42,790 --> 00:02:45,880
+Este  um carto e ver o que isso parece.
+
+37
+00:02:45,880 --> 00:02:51,370
+Se eu salvar isso e voltarmos para o aplicativo, veremos o carto aqui.
+
+38
+00:02:51,670 --> 00:02:56,530
+E voc realmente no v um carto porque ele ocupa toda a largura, ento tudo fica branco aqui.
+
+39
+00:02:56,620 --> 00:03:01,540
+Agora, como acabei de dizer para telas maiores, eu gostaria de restringir a largura.
+
+40
+00:03:01,650 --> 00:03:03,710
+Ns podemos facilmente fazer isso.
+
+41
+00:03:03,720 --> 00:03:09,850
+Por que  simplesmente atribuir espaos em branco eFax e definir isso para digamos 400 pixels.
+
+42
+00:03:09,960 --> 00:03:19,620
+Fazemos isso, ento temos um carto que acaba aqui, mas tem uma desvantagem.
+
+43
+00:03:19,620 --> 00:03:24,720
+A desvantagem  que est totalmente posicionada para a esquerda.
+
+44
+00:03:24,720 --> 00:03:30,210
+Podemos consertar isso com o flex box enquanto voc aprende, mas para poder posicionar isso, precisamos
+
+45
+00:03:30,210 --> 00:03:34,400
+envolv-lo no container onde podemos usar as diretivas de layout do eFax.
+
+46
+00:03:34,650 --> 00:03:38,530
+Ento, vamos adicionar rapidamente uma seo ao novo treinamento da sua turma.
+
+47
+00:03:38,550 --> 00:03:39,870
+Vamos ver se precisamos.
+
+48
+00:03:40,260 --> 00:03:49,890
+E ento eu adicionarei meu carto nessa seo e cutis. Eu fao F X ou esqueo como se o corredor da morte estivesse
+
+49
+00:03:50,490 --> 00:03:54,870
+OK e a tica estabelecesse uma linha que deveria centraliz-la horizontalmente.
+
+50
+00:03:55,110 --> 00:03:59,880
+Agora, o que preciso inserir aqui para centralizar a placa horizontalmente.
+
+51
+00:03:59,880 --> 00:04:00,750
+Voc sabe
+
+52
+00:04:03,740 --> 00:04:10,550
+que preciso entrar no centro porque o primeiro valor que atribumos  tica traa uma linha sempre
+
+53
+00:04:10,550 --> 00:04:12,260
+centraliza no eixo principal.
+
+54
+00:04:12,620 --> 00:04:18,620
+Se no substituirmos o layout de tica para usar Culham, a configurao padro ser usar linha e, em seguida, o eixo
+
+55
+00:04:18,620 --> 00:04:20,610
+principal ser da esquerda para a direita.
+
+56
+00:04:20,840 --> 00:04:28,250
+Ento, se no nos centrarmos no eixo principal, ns nos centramos horizontalmente, de modo que, se dissermos isso, obteremos
+
+57
+00:04:28,250 --> 00:04:30,350
+uma carta centralizada no meio.
+
+58
+00:04:30,350 --> 00:04:31,130
+No est tudo bem.
+
+59
+00:04:31,130 --> 00:04:31,790
+Isso  legal.
+
+60
+00:04:31,790 --> 00:04:32,560
+Ns temos um carto.
+
+61
+00:04:32,580 --> 00:04:40,900
+Sim, mas seria melhor se tivssemos tambm um ttulo mais detalhado, por exemplo.
+
+62
+00:04:40,910 --> 00:04:43,490
+Drop down e alguns botes.
+
+63
+00:04:43,790 --> 00:04:46,650
+Ento, vamos adicionar essas coisas ao nosso carto.
+
+64
+00:04:47,580 --> 00:04:55,110
+Vou remover isso como um carto e, em vez disso, adicionar o ttulo do carto Matt um componente
+
+65
+00:04:55,110 --> 00:05:04,690
+que podemos usar dentro do carto Matt, tambm exposto pelo mdulo de carto Matt e a poderamos adicionar tempo para comear um treino.
+
+66
+00:05:04,920 --> 00:05:06,300
+O que voc quiser.
+
+67
+00:05:06,690 --> 00:05:13,230
+Se eu salvei isso, ento temos esse ttulo no carto.
+
+68
+00:05:13,490 --> 00:05:16,020
+Agora um ttulo  legal, mas queremos ter algum contedo tambm.
+
+69
+00:05:16,040 --> 00:05:20,540
+Ento, vamos adicionar o contedo do carto Matt abaixo do ttulo.
+
+70
+00:05:20,570 --> 00:05:25,190
+ aqui que mais tarde quero adicionar meu menu suspenso para que eu possa selecionar o tipo de treinamento
+
+71
+00:05:25,190 --> 00:05:25,790
+que quero fazer.
+
+72
+00:05:26,000 --> 00:05:28,790
+Ento, eu vou dizer selecionar o tipo de treinamento por enquanto.
+
+73
+00:05:30,570 --> 00:05:40,140
+E abaixo do contedo do carto, adiciono aes de carto de memria e aqui voc adiciona uma ao simplesmente adicionando um boto normal
+
+74
+00:05:40,140 --> 00:05:43,240
+a um boto normal com o boto Mat.
+
+75
+00:05:43,260 --> 00:05:45,860
+Aqui assim.
+
+76
+00:05:46,110 --> 00:05:54,790
+Aqui voc pode dar a ele qualquer legenda que voc quiser, como iniciar e o boto pode ser do tipo enviar como eu
+
+77
+00:05:54,880 --> 00:05:56,830
+adicionarei mais tarde para ele.
+
+78
+00:05:57,100 --> 00:06:00,080
+Mas com isso, basicamente, ns terminamos o nosso carto.
+
+79
+00:06:00,310 --> 00:06:06,070
+Se voltarmos e dermos uma olhada,  assim que pareceria ter o boto de iniciar l embaixo.
+
+80
+00:06:06,190 --> 00:06:07,580
+E isso parece um pouco feio.
+
+81
+00:06:07,720 --> 00:06:11,320
+Viajante estranho em uma gota aqui como j mencionei.
+
+82
+00:06:11,350 --> 00:06:17,290
+Ento vamos trabalhar nisso e vamos adicionar um dropdown para selecionar o tipo de exerccio que voc quer fazer na
+
+83
+00:06:17,290 --> 00:06:18,040
+prxima aula.
+

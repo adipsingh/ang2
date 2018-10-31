@@ -1,0 +1,64 @@
+1
+00:00:02,440 --> 00:00:09,880
+Se olharmos em nossa aplicao, temos uma tela de inscrio, uma tela de login e uma tela de treinamento e tudo
+
+2
+00:00:09,880 --> 00:00:10,420
+isso.
+
+3
+00:00:10,420 --> 00:00:12,730
+Claro que tambm na nossa resposta.
+
+4
+00:00:12,810 --> 00:00:14,130
+Vamos deitar aqui.
+
+5
+00:00:14,770 --> 00:00:25,430
+Agora podemos iniciar um treinamento em nosso dilogo aqui onde queremos sair ou no e nunca desistir ou continuar.
+
+6
+00:00:25,750 --> 00:00:27,180
+Ento tudo isso est funcionando.
+
+7
+00:00:27,220 --> 00:00:29,500
+Agora uma coisa est faltando.
+
+8
+00:00:29,500 --> 00:00:34,210
+Obviamente, se ns paramos aqui, no vemos exerccios passados.
+
+9
+00:00:34,330 --> 00:00:36,390
+No temos contedo aqui.
+
+10
+00:00:36,430 --> 00:00:45,070
+Agora, antes de adicionar dias em que vamos usar um muito legal e nos bastidores mais complexo para ns
+
+11
+00:00:45,070 --> 00:00:47,240
+no  realmente componente complexo.
+
+12
+00:00:47,560 --> 00:00:52,610
+Eu me pergunto por que todas essas coisas esto com dados reais e usam menos dados fictcios.
+
+13
+00:00:52,720 --> 00:00:59,620
+Hora de adicionar alguns servios e garantir que tudo interaja suavemente, assim que isso for
+
+14
+00:00:59,650 --> 00:01:06,700
+feito, implementaremos o componente de tabela e, a partir da, veremos como podemos realmente conectar tudo
+
+15
+00:01:06,700 --> 00:01:07,720
+ Internet.
+
+16
+00:01:07,720 --> 00:01:10,390
+Ento, o prximo mdulo  hora de ligar tudo.
+

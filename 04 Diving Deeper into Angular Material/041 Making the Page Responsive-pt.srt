@@ -1,0 +1,268 @@
+1
+00:00:02,440 --> 00:00:04,840
+Acrescentamos que a barra de ferramentas e o lado.
+
+2
+00:00:04,990 --> 00:00:07,830
+Agora  hora de tornar nosso site responsivo.
+
+3
+00:00:08,020 --> 00:00:11,770
+E para isso podemos dar uma olhada no pacote de layout flex novamente.
+
+4
+00:00:11,770 --> 00:00:18,210
+At agora, vimos a API esttica com layouts de tica e definimos uma lacuna de linha e tambm
+
+5
+00:00:18,220 --> 00:00:25,060
+usamos o epix flex. No usamos offset de ordem ou alinhamos ou preenchemos, porque voc realmente precisa disso, 
+
+6
+00:00:25,060 --> 00:00:26,590
+necessrio alterar a ordem.
+
+7
+00:00:26,890 --> 00:00:31,590
+Mas o que eu quero fazer agora  dar uma olhada na API responsiva.
+
+8
+00:00:31,870 --> 00:00:38,290
+Isso nos permite anotar todas essas diretivas com as diretivas responsivas,
+
+9
+00:00:38,320 --> 00:00:47,710
+como o X, solicitado em dispositivos pequenos ou menores, para aplicar apenas algo em dispositivos muito
+
+10
+00:00:47,750 --> 00:00:55,450
+pequenos. Anote todas as diretivas API estticas com essas diretivas responsivas para aplic-las em
+
+11
+00:00:55,450 --> 00:00:56,460
+determinadas telas.
+
+12
+00:00:56,470 --> 00:01:03,820
+Deixe-me mostrar a voc o que quero dizer no nosso exemplo aqui, se voltarmos para a API do stedding por um segundo,
+
+13
+00:01:04,270 --> 00:01:09,970
+obteremos essas diretrizes auxiliares na altura inferior da tica e mostraremos o que determina se algo pode
+
+14
+00:01:09,970 --> 00:01:11,480
+ser vencido ou no.
+
+15
+00:01:11,490 --> 00:01:19,960
+Agora poderamos simplesmente ocultar todo este bloco aqui na barra de ferramentas em dispositivos pequenos ou muito pequenos e
+
+16
+00:01:20,020 --> 00:01:23,800
+ocultar o boto de menu em dispositivos maiores.
+
+17
+00:01:23,800 --> 00:01:29,620
+Desta forma, a nav do site s poderia ser aberta em naves menores e a navegao na barra de ferramentas s
+
+18
+00:01:29,620 --> 00:01:31,000
+seria mostrada em naves maiores.
+
+19
+00:01:31,210 --> 00:01:37,480
+ claro que podemos fazer isso adicionando show de tica e ocultando para que possamos ir para o dia se isso envolver
+
+20
+00:01:37,510 --> 00:01:39,880
+nossos itens de navegao e adicionar altura de tica.
+
+21
+00:01:39,910 --> 00:01:45,090
+Agora, se eu salvar isso e voltar para a minha pgina, ele desaparece.
+
+22
+00:01:45,100 --> 00:01:46,600
+A navegao foi embora.
+
+23
+00:01:46,930 --> 00:01:48,380
+Agora esse  o primeiro passo.
+
+24
+00:01:49,200 --> 00:01:53,160
+Eu quero escond-lo apenas em pequenos dispositivos,  claro.
+
+25
+00:01:53,160 --> 00:01:55,290
+Agora podemos adicionar esta API responsiva.
+
+26
+00:01:55,320 --> 00:02:02,670
+Podemos adicionar um ponto e agora anotar isso com qualquer resposta de diretivas, por exemplo, x x,
+
+27
+00:02:02,670 --> 00:02:10,580
+o que significa apenas aplicar alta tica em telas muito pequenas, e voc pode voltar  documentao para ver
+
+28
+00:02:10,740 --> 00:02:14,230
+essa definio para isso sob a API responsiva.
+
+29
+00:02:14,490 --> 00:02:22,410
+Voc ver que o acesso simplesmente se aplica  consulta de mdia, na qual diz que apenas quatro telas chegam a
+
+30
+00:02:22,460 --> 00:02:23,370
+600 pixels.
+
+31
+00:02:23,640 --> 00:02:26,160
+A regra em que isso foi adicionado ser aplicada.
+
+32
+00:02:26,160 --> 00:02:30,580
+Ento, no nosso caso, apenas quatro telas de at quinhentos e noventa e nove pixels.
+
+33
+00:02:30,690 --> 00:02:33,840
+Eles estaro ocultos ou essa camada ficar oculta.
+
+34
+00:02:33,840 --> 00:02:36,070
+Esta lista de navegao
+
+35
+00:02:36,330 --> 00:02:42,520
+Ento, se voltarmos ao nosso aplicativo, podemos ver absolutamente o menu aqui.
+
+36
+00:02:42,720 --> 00:02:45,790
+Mas se eu mudar para o modo mvel, vai embora.
+
+37
+00:02:46,050 --> 00:02:49,140
+E, claro, o mesmo para diferentes telefones celulares.
+
+38
+00:02:49,140 --> 00:02:51,360
+Agora isso mostra o que quero dizer.
+
+39
+00:02:51,660 --> 00:02:52,650
+Mas ns a.
+
+40
+00:02:53,010 --> 00:02:55,790
+Ns no temos nenhum menu aqui, mas ns chegamos aqui.
+
+41
+00:02:56,070 --> 00:03:00,460
+Agora vamos fazer o oposto para o boto do boto de menu.
+
+42
+00:03:00,830 --> 00:03:09,520
+Eu vou pegar isso e agora neste dia que envolve o boto podemos adicion-lo, mas  claro que voc
+
+43
+00:03:09,520 --> 00:03:13,700
+quer esconder isso em tudo, mas telas muito pequenas.
+
+44
+00:03:13,870 --> 00:03:22,150
+Ento poderamos dizer: F X s m f x esconda M D e todas essas classes que voc v aqui.
+
+45
+00:03:22,450 --> 00:03:32,640
+Portanto, temos que fazer isso para grandes e extragrandes, para que a tica esconda a grande tica escondida x l ao fazer isso.
+
+46
+00:03:32,680 --> 00:03:36,580
+Se voltarmos, no vemos nenhum boto de menu aqui.
+
+47
+00:03:36,750 --> 00:03:42,980
+E se eu encolher a tela  Stehr se formos para dispositivos menores.
+
+48
+00:03:43,320 --> 00:03:49,590
+Na verdade, ele aparece s 10h30, j que se somaria se eu voltasse a soar.
+
+49
+00:03:50,390 --> 00:03:58,060
+Para minha resoluo normal, ento isso no apareceria e s iria quebrar a 600 pixels.
+
+50
+00:03:58,200 --> 00:04:01,870
+Ento, todos os 600 pixels e menores, temos esse boto.
+
+51
+00:04:02,010 --> 00:04:03,510
+Deixe-me Sumant novamente embora.
+
+52
+00:04:03,510 --> 00:04:08,910
+Portanto, esta  a nossa configurao responsiva aqui, onde s temos essa barra de menu em telas pequenas.
+
+53
+00:04:09,890 --> 00:04:12,680
+Atribuir a classes como essa  um pouco incmodo.
+
+54
+00:04:12,720 --> 00:04:16,590
+Saber o que poderamos fazer  adicionar F X show X s.
+
+55
+00:04:16,790 --> 00:04:21,690
+Se fizermos isso,  sempre visvel.
+
+56
+00:04:21,710 --> 00:04:23,430
+Ento isso no nos ajuda aqui.
+
+57
+00:04:23,810 --> 00:04:26,460
+Em vez disso, podemos usar um nmero de uma classe auxiliar.
+
+58
+00:04:26,600 --> 00:04:32,630
+Todos ns ficamos mais baixos e maiores do que as classes e queremos dizer que isso deve ser escondido.
+
+59
+00:04:32,630 --> 00:04:40,370
+Assim, a altura tica para tudo que  maior do que o extra pequeno se refere a essa classe
+
+60
+00:04:40,370 --> 00:04:41,030
+auxiliar aqui.
+
+61
+00:04:41,030 --> 00:04:45,330
+E com essa configurao, agora temos o mesmo efeito de antes, mas com menos cdigo.
+
+62
+00:04:45,530 --> 00:04:48,920
+E agora temos uma navegao responsiva aqui.
+
+63
+00:04:49,490 --> 00:04:52,240
+Ainda  claro que o lado que eles tm um esvazia separado.
+
+64
+00:04:52,250 --> 00:04:54,740
+Ento isso  algo que eu quero trabalhar em seguida.
+
+65
+00:04:54,800 --> 00:05:01,460
+E ento todos ns devemos dar uma olhada em como podemos realmente dividir esse componente de aplicativo em
+
+66
+00:05:01,460 --> 00:05:03,450
+subcomponentes menores e mais focados.
+
+67
+00:05:03,590 --> 00:05:06,000
+Vamos trabalhar em todas essas coisas no prximo ELECTRESS.
+

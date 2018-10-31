@@ -1,0 +1,312 @@
+1
+00:00:02,130 --> 00:00:08,430
+Digamos que queremos obtener algunos datos en nuestro dilogo, los abrimos con el mtodo abierto, pero
+
+2
+00:00:08,430 --> 00:00:13,040
+digamos que en el componente de dilogo queremos generar algn valor dinmico.
+
+3
+00:00:13,140 --> 00:00:18,420
+Por ejemplo, aqu podramos agregar un nmero componente especial all.
+
+4
+00:00:18,760 --> 00:00:22,470
+Contenido de dilogo Matt.
+
+5
+00:00:24,870 --> 00:00:26,400
+Y luego
+
+6
+00:00:29,160 --> 00:00:39,110
+simplemente publique un prrafo donde decimos que ya obtuvo y luego sus porcentajes de progreso.
+
+7
+00:00:39,150 --> 00:00:43,610
+Ahora, cmo haramos esto? Cmo podramos obtener esos datos en nuestro dilogo?
+
+8
+00:00:47,540 --> 00:00:51,420
+Comienza en el recinto donde abrimos el dilogo all.
+
+9
+00:00:51,440 --> 00:00:57,830
+Adicionalmente, Capote, que debera abrirse en el dilogo, podemos pasar un objeto con
+
+10
+00:00:57,830 --> 00:00:59,560
+alguna configuracin adicional.
+
+11
+00:00:59,620 --> 00:01:06,050
+Ahora todos los detalles se pueden encontrar en los documentos oficiales, pero una pieza muy importante de la
+
+12
+00:01:06,470 --> 00:01:10,950
+documentacin son los datos que queremos pasar al dilogo de recepcin o apertura.
+
+13
+00:01:11,120 --> 00:01:17,120
+Lo hacemos estableciendo una propiedad date up aqu que a su vez puede ser un objeto javascript donde no
+
+14
+00:01:17,120 --> 00:01:21,410
+tenemos, por ejemplo, una clave de progreso que es igual a este progreso.
+
+15
+00:01:21,410 --> 00:01:28,700
+Entonces, para el progreso que actualmente almacenamos fomentamos el entrenamiento y ahora estamos pasando esto a la
+
+16
+00:01:28,910 --> 00:01:37,840
+propiedad de datos para nuestro dilogo de apertura ahora, en ese dilogo que estamos abriendo, tenemos que recibirlo y usarlo.
+
+17
+00:01:38,080 --> 00:01:43,920
+Y para esto usamos un mecanismo que parece complicado pero que en realidad no lo es.
+
+18
+00:01:44,000 --> 00:01:47,490
+Tenemos que inyectar algo en nuestro componente de entrenamiento de detencin.
+
+19
+00:01:47,870 --> 00:01:49,860
+As que agregaremos un constructor.
+
+20
+00:01:50,120 --> 00:01:57,680
+Y ahora aqu no usamos el mecanismo normal de Inyeccin de Dependencia, que tal vez sepa que este mecanismo
+
+21
+00:01:57,890 --> 00:02:04,850
+donde bsicamente asigna algn valor a alguna propiedad definiendo el tipo de lo que desea inyectar funciona en
+
+22
+00:02:05,630 --> 00:02:07,460
+la mayora de los casos.
+
+23
+00:02:07,460 --> 00:02:13,760
+Pero aqu no estamos inyectando una clase o algo as, estamos inyectando un objeto,
+
+24
+00:02:13,820 --> 00:02:21,680
+un objeto gestionado internamente por material angular, lo inyectamos aadiendo el decodificador de inyecciones que posiblemente no
+
+25
+00:02:21,680 --> 00:02:31,490
+haya utilizado, que a menudo se importa desde cualquier ngulo o ncleo. y tiene que ser agregado en frente de algn argumento.
+
+26
+00:02:31,790 --> 00:02:37,540
+Todava puede utilizar para cortarlo para cumplir con el argumento vinculado a una propiedad como aqu.
+
+27
+00:02:37,790 --> 00:02:47,390
+Todo agrega rpidamente mi objeto de datos privado o datos pasados para dejar muy claro que este Knabe no tiene que ser
+
+28
+00:02:47,390 --> 00:02:48,950
+un nombre de datos.
+
+29
+00:02:49,310 --> 00:02:50,170
+Y esto es de tipo.
+
+30
+00:02:50,210 --> 00:02:55,100
+Cualquiera Tambin podra encontrar precisamente el tipo que est pasando aqu.
+
+31
+00:02:55,130 --> 00:02:58,080
+Entonces, objetar propiedad de propiedades es un nmero.
+
+32
+00:02:58,270 --> 00:02:59,810
+Sera la alternativa.
+
+33
+00:03:00,350 --> 00:03:07,190
+As que lo conseguimos, pero tenemos que pasarle una discusin al decorador de objetos y el argumento de la
+
+34
+00:03:07,190 --> 00:03:10,230
+deuda es algo que importamos del material angular ET.
+
+35
+00:03:10,610 --> 00:03:23,980
+As que vamos a importar algo de material angular y ese algo aqu es constante.
+
+36
+00:03:24,180 --> 00:03:27,080
+Se llama datos de dilogo de Matt.
+
+37
+00:03:27,450 --> 00:03:34,440
+Esto es simplemente un almacenamiento constante de algn nmero aleatorio o ID que nos permite acceder a los datos que
+
+38
+00:03:34,490 --> 00:03:38,290
+el material de ngulo almacena internamente cuando llamamos al mtodo abierto.
+
+39
+00:03:38,610 --> 00:03:44,340
+Puede pensar en eso como en nuestras aplicaciones donde podramos usar un servicio para almacenar algunos
+
+40
+00:03:44,340 --> 00:03:50,340
+datos que queremos pasar entre los componentes internos de material angular para los datos que pasamos aqu
+
+41
+00:03:50,340 --> 00:03:54,420
+y le da una ID o usa una ID para almacenarlos .
+
+42
+00:03:54,420 --> 00:03:55,200
+Por asi decirlo.
+
+43
+00:03:55,590 --> 00:04:01,920
+Y esa idea es un nmero que todos podramos usar, pero dado que es ms fcil recordar el texto
+
+44
+00:04:01,920 --> 00:04:09,900
+que mezquitas esta idea con este texto, los datos de dilogo de Matt son un llamado token que ahora pasamos a inyectar para bsicamente
+
+45
+00:04:09,900 --> 00:04:10,300
+contarlo.
+
+46
+00:04:10,600 --> 00:04:11,080
+S.
+
+47
+00:04:11,160 --> 00:04:16,980
+En su referencia de datos, de alguna manera est almacenada la informacin para abrir el cuadro de dilogo actualmente?
+
+48
+00:04:17,040 --> 00:04:18,800
+Por favor dame los datos.
+
+49
+00:04:18,870 --> 00:04:20,060
+Esto es lo que estamos diciendo.
+
+50
+00:04:20,070 --> 00:04:22,090
+Material angular con esta sintaxis.
+
+51
+00:04:22,340 --> 00:04:24,770
+Y por favor dmelo y gurdalo en el pasado.
+
+52
+00:04:24,780 --> 00:04:26,320
+Propiedad de datos
+
+53
+00:04:26,760 --> 00:04:34,020
+Con eso podemos usar la propiedad de datos del pasado en cualquier parte de este componente, como aqu en la plantilla, por
+
+54
+00:04:34,020 --> 00:04:41,310
+supuesto, y los X-ists pensaron en el progreso porque eso es algo que tendremos un modo fcil de leer y esto debera
+
+55
+00:04:41,310 --> 00:04:42,630
+ser pblico aqu.
+
+56
+00:04:43,800 --> 00:04:50,760
+Entonces con eso obtuvimos nuestros datos pasados y ahora deberamos poder abrir ese dilogo.
+
+57
+00:04:51,700 --> 00:04:57,430
+Y vea el porcentaje actual all porque lo estamos pasando con xito al
+
+58
+00:04:57,430 --> 00:04:59,370
+dilogo con este complicado.
+
+59
+00:04:59,590 --> 00:05:04,000
+Pero al final no es un enfoque tan complicado y siempre es un enfoque muerto.
+
+60
+00:05:04,090 --> 00:05:07,540
+As que al final solo tienes que recordar este patrn.
+
+61
+00:05:07,670 --> 00:05:08,960
+Ahora eso es bueno, pero estamos haciendo clic.
+
+62
+00:05:08,960 --> 00:05:15,830
+Verdadero o falso y estamos pasando un s o un no y estamos pasando verdadero o falso al componente de apertura.
+
+63
+00:05:15,830 --> 00:05:17,690
+Cmo consumimos este valor?
+
+64
+00:05:17,690 --> 00:05:19,850
+Cmo tomamos esto en cuenta?
+
+65
+00:05:20,880 --> 00:05:28,560
+As que para esto voy a almacenar este dilogo en una constante llamada dilogo ref porque
+
+66
+00:05:28,590 --> 00:05:34,210
+este dilogo abrir una referencia al dilogo abierto y luego al dilogo.
+
+67
+00:05:34,220 --> 00:05:41,400
+RATH Agregar o ejecutar el mtodo frecuentemente reeligido que me da un observable que se activa
+
+68
+00:05:41,460 --> 00:05:42,990
+siempre que est cerrado.
+
+69
+00:05:43,230 --> 00:05:48,310
+Entonces, simplemente me puedo suscribir a ese observable que conoces y / o usa muchos observables.
+
+70
+00:05:48,330 --> 00:05:52,130
+Entonces lo hace aqu y obtendr el resultado.
+
+71
+00:05:52,350 --> 00:05:54,660
+Y ahora podemos hacer con el resultado lo que queramos.
+
+72
+00:05:54,690 --> 00:05:57,870
+Por ejemplo, decida si queremos continuar o no.
+
+73
+00:05:58,050 --> 00:06:02,250
+Por lo tanto, puede simplemente consolar el resultado del registro por ahora.
+
+74
+00:06:02,820 --> 00:06:11,970
+Entonces con eso, si nuevamente comenzamos este ejercicio, detngalo y marque no, devolveremos el valor falso, como puede ver, haga clic
+
+75
+00:06:11,970 --> 00:06:17,300
+en S, volvemos cierto y eso es exactamente lo que vinculamos aqu.
+
+76
+00:06:17,400 --> 00:06:20,610
+Verdadero verdadero s y falso saber.
+
+77
+00:06:20,610 --> 00:06:26,980
+Ahora obtenemos esa informacin y ahora podemos usarla para continuar con el entrenamiento o detenerlo.
+
+78
+00:06:27,180 --> 00:06:32,420
+Ahora, para hacer eso, implementemos algo de lgica en la prxima conferencia.
+
